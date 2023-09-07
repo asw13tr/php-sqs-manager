@@ -1,0 +1,18 @@
+{
+    "name": "qfs.test/www",
+    "autoload": {
+        "psr-4": {
+            "QfsTest\\": "classes/"
+        }
+    },
+    "authors": [
+        {
+            "name": "QFS"
+        }
+    ],
+    "require": {
+        "php-amqplib/php-amqplib": "^2.8",
+        "vlucas/phpdotenv": "^5.5",
+        "aws/aws-sdk-php": "^3.280"
+    }
+}

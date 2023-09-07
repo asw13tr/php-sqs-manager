@@ -1,0 +1,6 @@
+vendor
+vendor/**
+exports/**
+.env
+.idea
+.idea/**
