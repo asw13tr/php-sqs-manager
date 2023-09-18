@@ -20,7 +20,7 @@ $message = $sender->setMessage($messageDatas)
     ->setAttribute("WeeksOn", "1", SQSQueueSender::TYPE_NUMBER)
     ->send();
 
-if(!$message){
+if($message){
     // sendet
 }else{
     // error

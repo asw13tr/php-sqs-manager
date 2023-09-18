@@ -4,3 +4,6 @@ exports/**
 .env
 .idea
 .idea/**
+
+**/*.bat
+*.bat
